@@ -31,10 +31,17 @@ body{
     border-bottom-right-radius: 1rem;
 }
 
-.navigation .nav-main {
+.navigation .nav-main a{
     font-weight: bold;
     font-size: 2.3rem;
     font-family: 'Secular One', sans-serif;   
+}
+
+.navigation .nav-main a:hover{
+    font-weight: bold;
+    font-size: 2.3rem;
+    font-family: 'Secular One', sans-serif;  
+    color: rgb(182, 178, 178); 
 }
 
 .navigation .nav-pills {
@@ -51,7 +58,37 @@ body{
     font-weight: bold;
 }
 
-.container {
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.card-button{
+    text-decoration: none;
+    color: black;
+    border: 3px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    font-weight: 800;
+
+}
+
+.card-button:hover{
+    box-shadow: 4px 4px gray;
+}
+
+.card{
+    max-width: 500px;
+    margin: auto;
+}
+
+.container { 
     display: flex;
     flex-direction: column;
     width: 70vw;
@@ -176,7 +213,7 @@ footer{
     list-style: none;
 }
 
-a{
+.footer a{
     text-decoration: none;
     color: var(--primary-color);
 }
