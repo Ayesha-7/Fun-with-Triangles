@@ -42,7 +42,7 @@ function getHypotenuse(){
     hypo = Math.round(hypo*1000) / 1000;
 
     output.style.display = "block";
-    output.innerText = "The length of hypotenuse is " + hypo;
+    output.innerText = "The length of hypotenuse is " + hypo + "unit";
     if(hypo*hypo != Math.round(hypo*hypo))
     smallmsg.style.display = "block";
 }
