@@ -47,6 +47,7 @@ function calculateArea() {
         area = Math.round(area * 1000) / 1000;
 
         output.style.display = "block";
+        output.style.color = "black";
         output.innerText = "The area of Triangle is " + area + " unit²";
         if (area * area != Math.round(area * area))
             smallmsg.style.display = "block";
