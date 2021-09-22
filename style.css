@@ -3,6 +3,7 @@
 
 :root {
     --primary-color: #4361ee;
+    /* --primary-color: #c84bd4; */
 }
 
 * {
@@ -54,8 +55,17 @@ body{
     text-align: right;
 }
 
+.navigation .link:hover{
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    color: var(--primary-color);padding: 0.4rem;
+}
+
 .navigation .link-active{
     font-weight: bold;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    color: var(--primary-color);padding: 0.4rem;
 }
 
 a{
@@ -203,6 +213,11 @@ footer{
 .footer .link{
     font-size: 30px;
     color: black;
+}
+
+.footer .link:hover{
+    cursor: pointer;
+    font-size: 35px;
 }
 
 .footer ul {
