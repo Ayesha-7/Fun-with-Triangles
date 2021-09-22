@@ -35,6 +35,9 @@ function calculateScore(){
         i = i+1;
     }
     output.style.display = "block";
+    if(score > 8)
+    output.innerText = "Your score is " + score + "! 🎉🎉";
+    else
     output.innerText = "Your score is " + score;
 }
 
